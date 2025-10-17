@@ -25,9 +25,11 @@ https://fakestoreapi.com/
 	```bash
 	python --version
 	which python
-	point to .venv/Scripts/python
+	``` 
+	should point to python version in
+	```python
+	.venv/Scripts/python
 	```
-
 ## 3. install required packages.
 - install the required packages in a requirements.txt file.
 	```bash
