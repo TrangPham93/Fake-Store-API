@@ -7,19 +7,15 @@ https://fakestoreapi.com/
 
 ## 2. create and activate python virtual environment
 Create an virtual environment is recommended (self-contained Python workspace). It allows each projects to have a different Python version, dependencies and packages.
--	```python
-python -m venv .venv
-```
+-	```bash python -m venv .venv ```
 set up virtual environment to run your codes inside without affecting the main system
 -	activate it in Git Bash (which I use)
 	- check with your folder, if .venv has /Script or /bin
-	- for me it's /Script: ```python
-	source .venv/Scripts/activate
-	```
+	- for me it's /Script: ```bash	source .venv/Scripts/activate	```
 		(.venv)
 		Trang Pham@Trang
 - check Python verison: 
-	```python
+	```bash
 	python --version
 	which python
 	point to .venv/Scripts/python
@@ -27,7 +23,7 @@ set up virtual environment to run your codes inside without affecting the main s
 
 ## 3. install required packages.
 - install the required packages in a requirements.txt file.
-	```python
+	```bash
 	pip install --upgrade pip
 	pip install -r requirement.txt
 	```
