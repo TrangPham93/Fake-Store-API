@@ -37,5 +37,22 @@ https://fakestoreapi.com/
 
 ## 4. scripts
 - fetch_data.py: to fetch all the products data
+- transform_data.py: clean up and transform to correct type for each data type
+- analysis.py: calculate the KPI and show graph
 
+=> Run the scripts:
+```python
+python *.py
+```
+## 5. save your installed packages in the current python env
+Every working session, when you upgrade or install new packages necessary for your work, free it. 
+```python
+pip freeze > requirements.txt
+```
+This allows you to work on another machine or someone else to recreate a similar env necessary for the files to run
+```python
+python -m venv .venv
+source .venv/Scripts/activate
+pip install -r requirements.txt
+```
 
