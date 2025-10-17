@@ -12,9 +12,10 @@ https://fakestoreapi.com/
 	```
 - Activate it in Git Bash (which I use)
 	- check with your folder, if .venv has /Script or /bin
-	- for me it's /Script:	 ```bash	
-							source .venv/Scripts/activate	
-							```
+	- for me it's /Script:	
+		```bash	
+		source .venv/Scripts/activate	
+		```
 	- promt should return with (.venv) like this	
 		```markdown
 		(.venv)
